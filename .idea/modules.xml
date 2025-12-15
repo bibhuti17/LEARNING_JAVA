@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/FIrstJavaProgram/FirstJavaProgram.iml" filepath="$PROJECT_DIR$/FIrstJavaProgram/FirstJavaProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Collections/Java_Collections.iml" filepath="$PROJECT_DIR$/Java_Collections/Java_Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnString/LearnString.iml" filepath="$PROJECT_DIR$/LearnString/LearnString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatternPrinting/PatternPrinting.iml" filepath="$PROJECT_DIR$/PatternPrinting/PatternPrinting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Problems_Mathematics/Problems_Mathematics.iml" filepath="$PROJECT_DIR$/Problems_Mathematics/Problems_Mathematics.iml" />
     </modules>
   </component>
