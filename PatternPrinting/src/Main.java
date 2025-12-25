@@ -7,11 +7,12 @@ public class Main {
 //        pattern_3(5);
 //        pattern_4(5);
 //        pattern_5(5);
+        pattern_6(5);
 //        pattern_28(5);
 //        pattern_30(5);
 //        pattern_17(5);
 //          pattern_31(6);
-          pattern_32(4);
+//          pattern_32(4);
     }
 
     static void pattern_1(int n){
@@ -184,6 +185,27 @@ public class Main {
                 System.out.print(atEveryIndex+" ");
             }
             System.out.println();
+        }
+    }
+
+    static void pattern_6(int n ) {
+
+        for (int row = 1; row <= n; row++) {
+            if (row%2 == 0) {
+                for (int col = 1; col <= n; col++){
+                    if (col == 1 || col == n) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print("  ");
+                    }
+                }
+                System.out.println();
+            } else {
+                for (int col = 1; col <= n; col++) {
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
         }
     }
 }
