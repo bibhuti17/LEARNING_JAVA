@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/LearningSorting/LearningSorting.iml" filepath="$PROJECT_DIR$/LearningSorting/LearningSorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/PatternPrinting/PatternPrinting.iml" filepath="$PROJECT_DIR$/PatternPrinting/PatternPrinting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Problems_Mathematics/Problems_Mathematics.iml" filepath="$PROJECT_DIR$/Problems_Mathematics/Problems_Mathematics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
     </modules>
   </component>
 </project>
