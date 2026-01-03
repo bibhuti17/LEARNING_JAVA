@@ -80,6 +80,20 @@ public class PreorderTreeCreation {
                 }
             }
         }
+
+        public int height(Node root) {
+            if (root == null) return 0;
+            int leftHeight = height(root.left);
+            int rightHeight = height(root.right);
+            return Math.max(leftHeight, rightHeight) + 1;
+        }
+
+        public int countNodes(Node root) {
+            if (root == null) return 0;
+            int lcount = countNodes(root.left);
+            int rcount = countNodes(root.right);
+            return lcount + rcount + 1;
+        }
     }
 
 
@@ -91,6 +105,9 @@ public class PreorderTreeCreation {
 //        tree.preorder(root);
 //        tree.inorder(root);
 //        tree.postorder(root);
-        tree.levelOrder(root);
+//        tree.levelOrder(root);
+        System.out.println(tree.height(root));
+        System.out.println(tree.countNodes(root));
     }
+
 }
